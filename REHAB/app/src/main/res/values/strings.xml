@@ -1,0 +1,48 @@
+<resources>
+    <string-array name="type">
+        <item>New Game</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+    <string-array name="saveti">
+        <item>Najbolji i najsigurniji nacin da prebrodite krizu  je da izbrojite u sebi do 20 lagano</item>
+        <item>Kupite nesto sto ce vam okupirati prste i paznju!  Smoki, Chipsy, kikiriki ili semenke ce vam pomoci pri krizi, drzite ih uz sebe!</item>
+        <item>Probajte nas MemoryGame! Zaokupite vasu paznju resavajuci memorijsku igricu bice vam lakse, a necete ni primetiti!</item>
+        <item>Softversko inzinjerstvo ce vam povecati kriziranja u kratkom periodu. Ili se ispisite sa faksa ili zavezite sebi ruke trece nema</item>
+        <item>Dajte sebi oduska! Ako niste pusili 10 i vise dana, zapalite jednu cigaretu kako biste videli da je zavisnost sada samo psiholoska!</item>
+    </string-array>
+    <string name="app_name">REHAB</string>
+    <string name="home_btn" >Home</string>
+    <string name="progress_btn">Progress</string>
+    <string name="motivations_btn">Motivations</string>
+    <string name="achievements_btn">Achievements</string>
+    <string name="game_btn">Game</string>
+    <string name="x_btn">Kriza</string>
+    <string name="kriza_btn">Zabelezi krizu</string>
+    <string name="kriza_lbl">Zabelezite krizu</string>
+
+    <string name="welcome_lbl">Dobrodošli!</string>
+    <string name="welcome_lbl2">Ukupno niste pušili: </string>
+    <string name="motivaciona_slika">Motivaciona slika</string>
+    <string name="achievements_slika">Achievements slika</string>
+
+    <string name="lblUlazna">Dobrodosli u REHAB! Unesite podatke kako biste poceli \n sa koriscenjem aplikacije!</string>
+    <string name="lblKolicinaCigareta">Koliko cigareta ste  konzumirali dnevno? (samo unesite broj)</string>
+    <string name="lblCenaPakle">Koliko kosta pakla cigareta  koje ste konzumirali?   \n  (samo unesite broj)</string>
+    <string name="lblDatumPrestankaDateTimePicker">Izaberite datum kog ste prestali da pusite.</string>
+    <string name="lblSatPrestankaPusenja">Koliko casova je bilo  kada ste zapalili poslednju cigaretu?</string>
+    <string name="lblRazlog">Razlog zbog kog ste prestali?</string>
+    <string name="btnDatum">Otvori kalendar</string>
+    <string name="btnGotovo">Gotovo!</string>
+    <string name="btnModifikuj">Promenite ulazne podatke</string>
+    <string name="btnPromeni">Promeni</string>
+    <string name="lblOznakaUstede">Do sada ste ustedeli: </string>
+    <string name="lblKolikoJeUstedeo">u</string>
+    <string name="lblmojamotivacija">mm</string>
+    <string name="lblVreme">Niste pusili ukupno: </string>
+    <string name="lblVremeprogres">p</string>
+    <string name="lblZdravljeProgres">Zdravlje celokupnog organizma</string>
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.korisnik.rehab.Motivations">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@android:dimen/app_icon_size"
+
+                    android:layout_marginTop="0dp"
+
+                    android:background="#000000"
+                    android:foregroundGravity="top"
+                    android:gravity="center_vertical|center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_weight="0.82"
+                        android:background="#00000000"
+                        android:clickable="true"
+
+
+                        android:contentDescription="@string/home_btn"
+                        app:srcCompat="@drawable/home_btn" />
+
+                    <ImageButton
+                        android:id="@+id/btnProgress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:clickable="true"
+                        android:contentDescription="@string/progress_btn"
+                        app:srcCompat="@drawable/progress_btn" />
+
+                    <ImageButton
+                        android:id="@+id/btnMotivations"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.04"
+                        android:background="#00000000"
+                        android:clickable="true"
+                        android:contentDescription="@string/motivations_btn"
+                        android:foregroundGravity="top"
+                        app:srcCompat="@drawable/motivations_btn" />
+
+                    <ImageButton
+                        android:id="@+id/btnAchievements"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.72"
+                        android:background="#00000000"
+                        android:clickable="true"
+                        android:contentDescription="@string/achievements_btn"
+                        app:srcCompat="@drawable/achievements_btn" />
+
+                    <ImageButton
+                        android:id="@+id/btnGame"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:clickable="true"
+                        android:contentDescription="@string/game_btn"
+                        app:srcCompat="@drawable/game_btn" />
+
+                    <ImageButton
+                        android:id="@+id/Xbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.89"
+                        android:background="#00000000"
+                        android:clickable="true"
+                        android:contentDescription="@string/x_btn"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/x_btn" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/motivacija_lbl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="148dp"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:foregroundGravity="center"
+                        android:gravity="center_horizontal"
+                        android:text="@string/lblmojamotivacija"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/prva"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/druga"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/treca"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/peta"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/sesta"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/sedma"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/osma"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/deveta"
+                        android:contentDescription="@string/motivaciona_slika" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

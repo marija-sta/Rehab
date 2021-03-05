@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.example.korisnik.rehab.Home">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+
+            android:layout_marginTop="0dp"
+
+            android:background="#000000"
+            android:foregroundGravity="top"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_weight="0.82"
+                android:background="#00000000"
+                android:clickable="true"
+
+
+                android:contentDescription="@string/home_btn"
+                app:srcCompat="@drawable/home_btn" />
+
+            <ImageButton
+                android:id="@+id/btnProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="true"
+                android:contentDescription="@string/progress_btn"
+                app:srcCompat="@drawable/progress_btn" />
+
+            <ImageButton
+                android:id="@+id/btnMotivations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.04"
+                android:background="#00000000"
+                android:clickable="true"
+                android:contentDescription="@string/motivations_btn"
+                android:foregroundGravity="top"
+                app:srcCompat="@drawable/motivations_btn" />
+
+            <ImageButton
+                android:id="@+id/btnAchievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.72"
+                android:background="#00000000"
+                android:clickable="true"
+                android:contentDescription="@string/achievements_btn"
+                app:srcCompat="@drawable/achievements_btn" />
+
+            <ImageButton
+                android:id="@+id/btnGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="true"
+                android:contentDescription="@string/game_btn"
+                app:srcCompat="@drawable/game_btn" />
+
+            <ImageButton
+                android:id="@+id/Xbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.89"
+                android:background="#00000000"
+                android:clickable="true"
+                android:contentDescription="@string/x_btn"
+                android:foregroundGravity="center_horizontal"
+                app:srcCompat="@drawable/x_btn" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/lbl1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/welcome_lbl"
+            android:textAllCaps="false"
+            android:textColor="#ffffc4"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/lbl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/welcome_lbl2"
+            android:textColor="#ffffc4"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/proteklovreme_lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.39"
+            android:fontFamily="serif"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Ovde upisi koliko dana nije pusio"
+            android:textColor="#ffffc4"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnModifikuj"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffffc4"
+            android:clickable="true"
+            android:text="@string/btnModifikuj"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
